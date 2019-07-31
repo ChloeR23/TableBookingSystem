@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,21 +21,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void label1_Click(object sender, EventArgs e)
         {
             timer1.Start();
@@ -62,22 +48,7 @@ namespace WindowsFormsApp1
                 }
             }
             }
-        
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+    
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -133,16 +104,9 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void label10_Click_1(object sender, EventArgs e)
-        {
-            //display 18:00 next to Time under booking
-            label16.Text = "18:00";
-        }
+   
 
-        private void label24_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -192,6 +156,12 @@ namespace WindowsFormsApp1
             label16.Text = "17:00";
         }
 
+        private void label10_Click_1(object sender, EventArgs e)
+        {
+            //display 18:00 next to Time under booking
+            label16.Text = "18:00";
+        }
+        
         private void label11_Click(object sender, EventArgs e)
         {
             //display 19:00 next to Time under booking
